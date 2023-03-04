@@ -4,6 +4,10 @@ The [Common Locale Data Repository](https://cldr.unicode.org) maintains the cano
 
 The intention behind these libraries is to simplify localization. To make building a localized application as straight forward as one which is not. Indeed it can be argued that all applications are localized since they apply assumptions about the end user by default - even if those defaults are those of the Elixir language.
 
+### Presentations
+
+* ElixirConf EU 2022 [Building Elixir Apps for Global Audiences or an Audience of One](https://www.youtube.com/watch?v=b9BQM40UzEs).
+
 ### Fundamental libraries
 
 The following libraries can be used to support various aspects of localization:
