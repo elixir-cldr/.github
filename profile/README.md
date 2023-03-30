@@ -12,7 +12,7 @@ The intention behind these libraries is to simplify localization. To make buildi
 
 The following libraries can be used to support various aspects of localization:
 
-* [ex_cldr](https://hex.pm/ex_cldr) is the base level library that manages language tags and the locale data that supports them. Over 500 locales are supported.
+* [ex_cldr](https://hex.pm/packages/ex_cldr) is the base level library that manages language tags and the locale data that supports them. Over 500 locales are supported.
 * [ex_cldr_numbers](https://hex.pm/packages/ex_cldr_numbers) which provides localized number formatting and parsing.
 * [ex_cldr_currencies](https://hex.pm/packages/ex_cldr_currencies) which provides the data about the world's currencies both current and historic.
 * [ex_cldr_dates_times](https://hex.pm/packages/ex_cldr_dates_times) which provides localized date and time formatting (but not parsing)
