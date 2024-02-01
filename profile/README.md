@@ -21,7 +21,7 @@ The following libraries can be used to support various aspects of localization:
 * [ex_cldr_messages](https://hex.pm/packages/ex_cldr_messages) implements the [Unicode Message format](https://unicode-org.github.io/icu/userguide/format_parse/messages) for localizing messages. Integrates with `Gettext`.
 * [ex_cldr_calendars](https://hex.pm/packages/ex_cldr_calendars) which provides localized calendar implementations of the Proleptic Gregorian calendar, the Julian calendar, the ISO Week calendar and provides a mechanism to define variations of the Gregorian and ISO Week calendars to meet the needs to organizations (like corporations or governments) that use different calendar periods.
 * [ex_cldr_lists](https://hex.pm/packages/ex_cldr_lists) implemented localized list formatting.
-* [ex_cldr_territories](https;//hex.pm/packages/ex_cldr_territories) by @Schultzer provides support for localizing territory (country) information.
+* [ex_cldr_territories](https://hex.pm/packages/ex_cldr_territories) by @Schultzer provides support for localizing territory (country) information.
 * [ex_cldr_languages](https://hex.pm/packages/ex_cldr_languages) by @LostKobrakai which provides support for localizing language names.
 * [ex_cldr_collation](https://hex.pm/packages/ex_cldr_collation) which implements the [Unicode Collation Algorithm](https://unicode.org/reports/tr10) although only the [default DUCET](https://unicode.org/reports/tr10/#Default_Unicode_Collation_Element_Table) collation.
 
@@ -40,7 +40,7 @@ In support of Plug-based applications, including Phoenix applications, the follo
 
 * [ex_cldr_plugs](https://hex.pm/packages/ex_cldr_plugs) provides plugs that can extract the requested locale for a user from different parts of the locale or the session.
 * [ex_cldr_routes](https://hex.pm/packages/ex_cldr_routes) provides functions to generate and recognize localized routes. Also provides localized route helpers. Does not yet support localized [verified routes](https://github.com/phoenixframework/phoenix/blob/master/guides/routing.md#verified-routes). Verified routes are expected to be supported in March 2023.
-* [ex_cldr_html](https://hex.pm/packages/ex_cldr_html) which provides form helpers for selecting currencies, languages and territories. These are static HTML generators. A future `ex_cldr_components` will provide a more complete LiveView localized UI experience. This is not expected before year end 2023.
+* [ex_cldr_html](https://hex.pm/packages/cldr_html) which provides form helpers for selecting currencies, languages and territories. These are static HTML generators. A future `ex_cldr_components` will provide a more complete LiveView localized UI experience. This is not expected before year end 2023.
 
 ### Additional Calendars
 
