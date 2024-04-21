@@ -7,6 +7,7 @@ The intention behind these libraries is to simplify localization. To make buildi
 ### Presentations
 
 * ElixirConf EU 2022 [Building Elixir Apps for Global Audiences or an Audience of One](https://www.youtube.com/watch?v=b9BQM40UzEs).
+* [Elixir Mix podcast interview](https://topenddevs.com/podcasts/elixir-mix/episodes/the-power-of-cldr-with-kip-cole-emx-244#player1?catid=0&trackid=0)
 
 ### Fundamental libraries
 
