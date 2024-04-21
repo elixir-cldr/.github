@@ -12,12 +12,13 @@ The intention behind these libraries is to simplify localization. To make buildi
 
 The following libraries can be used to support various aspects of localization:
 
-* [ex_cldr](https://hex.pm/packages/ex_cldr) is the base level library that manages language tags and the locale data that supports them. Over 500 locales are supported.
+* [ex_cldr](https://hex.pm/packages/ex_cldr) is the base level library that manages language tags and the locale data that supports them. Over 700 locales are supported.
 * [ex_cldr_numbers](https://hex.pm/packages/ex_cldr_numbers) which provides localized number formatting and parsing.
 * [ex_cldr_currencies](https://hex.pm/packages/ex_cldr_currencies) which provides the data about the world's currencies both current and historic.
 * [ex_cldr_dates_times](https://hex.pm/packages/ex_cldr_dates_times) which provides localized date and time formatting (but not parsing)
 * [ex_cldr_units](https://hex.pm/packages/ex_cldr_units) which provides localized units-of-measure formatting and parsing.
 * [ex_cldr_units_sql](https://hex.pm/packages/ex_cldr_units_sql) which provides a database type and an Ecto type for serializing units-of-measure.
+* [ex_cldr_person_names](https://hex.pm/packages/ex_cldr_person_names) which provides localized formatting for peoples' names in a variety of styles and contexts.
 * [ex_cldr_messages](https://hex.pm/packages/ex_cldr_messages) implements the [Unicode Message format](https://unicode-org.github.io/icu/userguide/format_parse/messages) for localizing messages. Integrates with `Gettext`.
 * [ex_cldr_calendars](https://hex.pm/packages/ex_cldr_calendars) which provides localized calendar implementations of the Proleptic Gregorian calendar, the Julian calendar, the ISO Week calendar and provides a mechanism to define variations of the Gregorian and ISO Week calendars to meet the needs to organizations (like corporations or governments) that use different calendar periods.
 * [ex_cldr_lists](https://hex.pm/packages/ex_cldr_lists) implemented localized list formatting.
