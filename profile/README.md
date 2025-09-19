@@ -30,7 +30,7 @@ The following libraries can be used to support various aspects of localization:
 ### Money
 
 * [ex_money](https://hex.pm/packages/ex_money) provides a full-feature money libraries focusing on correctness and reliability with support for currency specific formatting (in any locale), money parsing, amortization and basic math.
-* [ex_money_sql](https://hex.pm/packages/ex_money_sql) provide a database type and an ecto type to simplify serialization of money withoug losing precision or currency tags.  Also includes some aggregate function extensions for the Postgresql database.
+* [ex_money_sql](https://hex.pm/packages/ex_money_sql) provide a database type and an ecto type to simplify serialization of money without losing precision or currency tags.  Also includes some aggregate function extensions for the Postgresql database.
 
 ### Ecto Integration
 
