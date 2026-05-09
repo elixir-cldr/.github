@@ -4,6 +4,16 @@ The [Common Locale Data Repository](https://cldr.unicode.org) maintains the cano
 
 The intention behind these libraries is to simplify localization. To make building a localized application as straight forward as one which is not. Indeed it can be argued that all applications are localized since they apply assumptions about the end user by default - even if those defaults are those of the Elixir language.
 
+> [!IMPORTANT]
+> `ex_cldr` and related projects remain actively supported. However you are
+> encouraged to move to the [localize](https://github.com/elixir-localize) project as the
+> natural successor to `ex_cldr`. There is a [migration guide](https://hexdocs.pm/localize/migration.html)
+> to assist in that effort. Most users should find migration straight forward
+> since the public API is very similar (minus the `backend` architecture).
+> 
+> Note that there are no plans to update to any CLDR data releases beyond the 
+> current CLDR 48 data.
+
 ### Presentations
 
 * ElixirConf EU 2022 [Building Elixir Apps for Global Audiences or an Audience of One](https://www.youtube.com/watch?v=b9BQM40UzEs).
