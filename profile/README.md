@@ -12,7 +12,7 @@ The intention behind these libraries is to simplify localization. To make buildi
 > since the public API is very similar (minus the `backend` architecture).
 >
 > Note that there are no plans to update to any CLDR data releases beyond the
-> current CLDR 48 data. See the [support](https://hexdocs.pm/localize#support) section for more information.
+> current CLDR 48 data. See the [future support](#future-support) section for more information.
 
 ### Presentations
 
