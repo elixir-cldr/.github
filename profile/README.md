@@ -10,9 +10,9 @@ The intention behind these libraries is to simplify localization. To make buildi
 > natural successor to `ex_cldr`. There is a [migration guide](https://hexdocs.pm/localize/migration.html)
 > to assist in that effort. Most users should find migration straight forward
 > since the public API is very similar (minus the `backend` architecture).
-> 
-> Note that there are no plans to update to any CLDR data releases beyond the 
-> current CLDR 48 data.
+>
+> Note that there are no plans to update to any CLDR data releases beyond the
+> current CLDR 48 data. See the [support](https://hexdocs.pm/localize#support) section for more information.
 
 ### Presentations
 
@@ -45,7 +45,7 @@ The following libraries can be used to support various aspects of localization:
 ### Ecto Integration
 
 * [ex_cldr_trans](https://hex.pm/packages/ex_cldr_trans) provides a mechanism to localized database content. It is based on the fabulous [trans](https://hex.pm/packages/trans) by @crbelaus.
- 
+
 ### Plug-based applications
 
 In support of Plug-based applications, including Phoenix applications, the following add-on libraries can be used:
@@ -62,3 +62,17 @@ Additional calendars that full support the Elixir Calendar behaviour are also av
 * [ex_cldr_calendars_coptic](https://hex.pm/packages/ex_cldr_calendars_coptic)
 * [ex_cldr_calendars_persian](https://hex.pm/packages/ex_cldr_calendars_persian)
 * [ex_cldr_calendars_ethiopic](https://hex.pm/packages/ex_cldr_calendars_ethiopic)
+
+### Future Support
+
+With localize now largely stable (and already at 25% of the weekly downloads of ex-cldr) its time to be clear about the transition and support plans for `ex_cldr_*` libraries:
+
+* `ex_cldr` and dependant libraries will continue to be supported with bug fixes until December 31, 2027. After that there are no plans to provide support. New maintainers are welcome to provide support after that time but it would be better to encourage migration to `localize`.
+* `ex_cldr` and dependant libraries are currently based upon CLDR version 48.2 and there are no plans to update the CLDR version for `ex_cldr_*` libraries.
+* There are no plans for enhancements for `ex_cldr_*` libraries but PRs will be reviewed on a case-by-case basis.
+* At the end of December 2026, support for OTP 26 in `ex_cldr_*` libraries will be removed. `ex_cldr_*` will at that time be supported on OTP 27, 28 and 29 and Elixir 1.17+.
+* All libraries will be updated to ensure compatibility with OTP 30 (anticipated around the middle of 2027) and Elixir 1.21 and 1.22 (assuming the usual Elixir release cadence).
+* Elixir 1.17+ will continue as the minimum release as long as possible but that is not guaranteed.
+
+`localize` will continue to be actively developed and supported. Current ex_cldr consumers are encouraged to migrate to localize.
+
